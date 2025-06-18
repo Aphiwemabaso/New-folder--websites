@@ -1,0 +1,41 @@
+.gallery img{
+    width: 100%;
+}
+h2{
+    font-family: pacifico;
+    color: #f2eeee;
+    animation: neon 5s infinite alternate;
+    text-align: center;
+    font-size: 50px;
+    text-decoration-color: #f2eeee;
+}
+@keyframes neon{
+    0% , 39% , 41% , 59% ,61% , 100%{
+        text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #00d5ff, 0 0 30px #00d5ff, 0 0 40px #00d5ff, 0 0 50px #00d5ff, 0 0 60px #00d5ff;
+    }
+    40% , 60%{
+        text-shadow: none
+    }
+}
+body{
+    background: radial-gradient(white, #000000);
+}    
+#menu{
+    width: ;
+    height: 50px;
+    background-color: #f30808;
+    padding-top: 20px;
+}
+#menu a{
+    color: white;
+    font: helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 900;
+    padding-left: 20px;
+    
+}
+#menu a:hover{
+    color: #7d0808;
+    text-decoration: underline;
+}
